@@ -1,0 +1,11 @@
+{
+  "name": "@ne/server",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "rubberdvcky <dvckyyyy@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@ne/arts": "^0.0.0"
+  }
+}
