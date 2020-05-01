@@ -18,4 +18,12 @@ function getEnvVariable(
   return type === 'string' ? variable.toString() : Number(variable);
 }
 
-export const SERVER_PORT = getEnvVariable('SERVER_PORT', 'number');
+export const SERVER_PORT = getEnvVariable('SERVER_PORT', 'number') as number;
+export const GOOGLE_SHEETS_API_KEY = getEnvVariable(
+  'GOOGLE_SHEETS_API_KEY',
+  'string',
+) as string;
+export const GOOGLE_DOCUMENT_ID = getEnvVariable(
+  'GOOGLE_DOCUMENT_ID',
+  'string',
+) as string;

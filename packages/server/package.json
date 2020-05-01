@@ -7,11 +7,13 @@
   "private": true,
   "scripts": {
     "start": "npm run serve",
+    "build": "tsc -p",
     "serve": "node dist/main.js",
-    "watch": "nodemon src/main.ts"
+    "watch": "nodemon --inspect src/main.ts"
   },
   "dependencies": {
     "@ne/arts": "^0.0.0",
+    "@ne/fetcher": "^0.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

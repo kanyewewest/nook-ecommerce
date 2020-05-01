@@ -1,0 +1,17 @@
+{
+  "name": "@ne/fetcher",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "rubberdvcky <dvckyyyy@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -w -p ."
+  },
+  "dependencies": {
+    "fp-ts": "^2.5.4",
+    "google-spreadsheet": "^3.0.11",
+    "io-ts": "^2.2.1"
+  }
+}
