@@ -1,0 +1,6 @@
+node_modules
+
+# Distribution files
+packages/*/dist/
+# Art files
+packages/arts
